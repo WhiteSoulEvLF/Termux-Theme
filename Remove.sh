@@ -2,7 +2,7 @@ folder_remove() {
 cd $HOME
 if [[ -e Termux-Theme ]]
 then
-rm -rvf Termux-Theme
+rm -rvf Termux-Theme //data/data/com.termux/files/usr/themes
 fi
 }
 install() {
