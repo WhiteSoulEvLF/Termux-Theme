@@ -16,6 +16,14 @@ Cool Evil Eye Banner Script for Termux :)
   bash Main.sh
 
 ```
+
+## One Command Installation :
+
+```bash
+  git clone https://github.com/WhiteSoulEvLF/Termux-Theme.git && cd Termux-Theme && bash Requirements.sh && bash Main.sh
+
+```
+
 ## Social Media
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instgram.com/pvt.anuj____/)  
