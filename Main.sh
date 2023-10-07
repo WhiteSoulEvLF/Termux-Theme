@@ -1,31 +1,31 @@
 clear
-figlet -f big Termux Theme | lolcat
+figlet -f mono9 "Termux Theme" | lolcat
 cyan='[0;36m'
 lightgreen='[1;32m'
 red='[1;31m'
 yellow='[1;33m'
-echo -e $lightgreen "[1m                Team WhiteSoul EvLF Welcomes You"
+NC="\033[0m"
+echo -e $cyan"[1m : Developed By "$yellow"WhiteSoulEvLF"
 echo " "
-echo -e $yellow "[1m                         -WhiteSoul EvLF "
-echo " "
-echo " "
-echo " "
-echo -e "[1m[33m
-What is Your [31mBanner [33mName[32m :
 
-"
+echo -e "[1m[33m
+$ What is Your [31mBanner [33mName[32m :
+
+${NC}"
 read varbanner
 echo
 echo -e "[1m[33m
-What is Your Cowsay Name[32m :
+$ What is Your Cowsay Name[32m :
 
- "
+ ${NC}"
 read varcowsay
-echo  "cowsay -f eyes "$varcowsay" | lolcat" > temp.txt
-echo "toilet -f big ' $varbanner' -F gay | lolcat" > Main.txt
+echo  "cowsay -f eyes "$varcowsay" | lolcat" > /data/data/com.termux/files/usr/themes/temp
+echo "toilet -f big ' $varbanner' -F gay | lolcat" > /data/data/com.termux/files/usr/themes/Main
 echo
-echo "clear" > remove.txt
-cat "remove.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-cat "temp.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-ls
-cat "Main.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo "clear" > /data/data/com.termux/files/usr/themes/remove
+echo "  "
+echo "  "
+cat "/data/data/com.termux/files/usr/themes/remove" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "/data/data/com.termux/files/usr/themes/temp" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+
+cat "/data/data/com.termux/files/usr/themes/Main" >> /data/data/com.termux/files/usr/etc/bash.bashrc
