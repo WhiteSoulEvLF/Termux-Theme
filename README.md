@@ -32,7 +32,7 @@ Cool Evil Eye Banner Script for Termux :)
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](heyy.anujkumarr@gmail.com)
 
-![Made In](https://img.shields.io/badge/Made%20In-India%20%E2%9D%A4-green?labelColor=orange&style=flat-square)
+![Made In](https://img.shields.io/badge/Made%20In-India%20%E2%9D%A4-green?labelColor=orange&style=flat)
 ### ❤ From Team WhiteSoul EvLF
 
 
