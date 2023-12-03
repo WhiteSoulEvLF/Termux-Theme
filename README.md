@@ -26,7 +26,7 @@ Cool Evil Eye Banner Script for Termux :)
 
 ## Social Media
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instgram.com/pvt.anuj____/)  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instgram.com/pvt.anuj____/)  
 
 ## Contect Me
 
